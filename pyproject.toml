@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embedreckon"
+version = "0.1.0"
+description = "The embedding-space auditor and migration certifier: stamps every index partition CONSISTENT / MIXED / UNVERIFIABLE against a declared provenance manifest, screens unprovenanced populations for mixed-space contamination under a published refusal boundary, measures model-pair alignability with its loss, and certifies or refuses a migration before cutover on completeness, single-space and golden-set retrieval equivalence."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [{ name = "Ranadhir Ghosh" }]
+keywords = ["embeddings", "vector-index", "migration", "verification", "rag", "audit", "provenance"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+embedreckon = "embedreckon.cli:main"
+
+[tool.setuptools]
+packages = ["embedreckon"]

@@ -1,0 +1,9 @@
+{
+ "format": "embedreckon-manifest/1",
+ "index": {
+  "model": "pseudo-b",
+  "model_version": "1.0",
+  "dimension": 64,
+  "metric": "cosine"
+ }
+}

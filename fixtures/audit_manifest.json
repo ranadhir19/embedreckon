@@ -1,0 +1,35 @@
+{
+ "format": "embedreckon-manifest/1",
+ "partitions": {
+  "docs-a": {
+   "model": "pseudo-a",
+   "model_version": "1.0",
+   "dimension": 64,
+   "metric": "cosine"
+  },
+  "docs-b": {
+   "model": "pseudo-a",
+   "model_version": "1.0",
+   "dimension": 64,
+   "metric": "cosine"
+  },
+  "docs-foreign": {
+   "model": "pseudo-a",
+   "model_version": "1.0",
+   "dimension": 64,
+   "metric": "cosine"
+  },
+  "docs-mixed": {
+   "model": "pseudo-a",
+   "model_version": "1.0",
+   "dimension": 64,
+   "metric": "cosine"
+  },
+  "docs-corrupt": {
+   "model": "pseudo-a",
+   "model_version": "1.0",
+   "dimension": 64,
+   "metric": "cosine"
+  }
+ }
+}
